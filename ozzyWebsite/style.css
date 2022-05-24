@@ -1,0 +1,132 @@
+body {
+  background-color: black;
+}
+
+header {
+  background-color: rgb(230, 224, 187);
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 0;
+}
+button {
+  height: 20%;
+  width: auto;
+  align-self: flex-end;
+  margin: 10px;
+  padding: 10px 10px 30px 10px;
+  color: rgb(13, 10, 69);
+  font-family: avenir;
+  font-size: large;
+  flex-wrap: nowrap;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(230, 224, 187);
+}
+
+button:hover {
+  border: outset;
+  border-color: rgb(13, 10, 69);
+}
+
+.section1 {
+  display: flex;
+}
+
+.gtr {
+  margin: auto 0;
+  height: 500px;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  align-self: center;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin: 20px;
+  font-family: copperplate;
+  font-weight: bold;
+}
+
+h2 {
+  position: absolute;
+  align-self: flex-end;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin-left: 50px;
+  margin-bottom: 180px;
+  font-family: copperplate;
+  font-weight: bold;
+}
+
+.contact:hover {
+  color: black;
+  background-color: white;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin-left: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.section2photos {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  margin-top: 50px;
+}
+
+.section2photos:hover {
+  filter: blur(10px);
+}
+
+.gallery {
+  color: white;
+  position: absolute;
+  margin-bottom: 30px;
+  margin-left: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.services {
+  color: white;
+  margin-left: 910px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  position: absolute;
+}
+.community {
+  margin-left: 1510px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  position: absolute;
+}
+
+hr {
+  color: white;
+  width: 600px;
+  margin-top: 50px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  background-image: url(https://www.teahub.io/photos/full/166-1664538_anime-wallpaper-hd-for-laptop.jpg);
+}
+
+.social {
+  height: 50px;
+  padding: 100px;
+}
